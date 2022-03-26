@@ -9,9 +9,22 @@ public class Ex2_Interruptores {
         for (int i = 1; i < 15; i++){
 
             if (i % 2 == 0){
-                System.out.println(i + " ");
+                System.out.print(i + " ");
             }
             if (i == 12) break;
+        }
+
+        System.out.println();
+        //Faça o mesmo exemplo acima com o while
+
+        int count = 1;
+
+        while (count <= 14){
+            if (count % 2 == 0){
+                System.out.print(count + " ");
+            }
+            count++;
+            if (count > 12) break;
         }
 
         }
